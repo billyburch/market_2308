@@ -13,7 +13,7 @@ class Vendor
     end
   end
   def add_item(item, price)
-    @items[item] = price # Add item and price to the hash
+    @items[item] = price 
   end
 
   def stock(item, quantity)
